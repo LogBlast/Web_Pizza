@@ -1,0 +1,20 @@
+{% load static %}
+<nav class="navbar navbar-expand-1g navbar-dark bg-danger bg-gradient">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/pizzas/">
+            <img src="{% static 'applipizza/img/logo-pizza.png' %}" alt="Logo de la pizzeria" width="30" height="30" class="d-inline-block align-text-top">
+            Appli Pizza 2023
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"> <a class="nav-link" href="/pizzas/">Les pizzas</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="/ingredients/">Les ingrédients</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="/ingredients/add/">créer un ingrédient</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="/pizzas/add/">créer une pizza</a> </li>
+            </ul>
+        </div>
+    </div>
+</nav>

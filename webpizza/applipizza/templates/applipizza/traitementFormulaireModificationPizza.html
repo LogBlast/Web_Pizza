@@ -1,0 +1,13 @@
+{% extends 'applipizza/base.html' %}
+
+{% block title %}
+Modifications de la pizza
+{% endblock %}
+
+{% block main %}
+<h2 class="text-center">Détails de la pizza</h2>
+<p class="mx-2">Nom de la pizza : {{pizza.nomPizza}}</p>
+<p class="mx-2">Prix de la pizza : {{pizza.prix}}</p>
+<p class="mx-2"><img src="{{ MEDIA_URL }}{{ pizza.image }}" alt="photo de la pizza {{ piz.nomPizza }}" title="{{ piz.nomPizza }}" style="max-width: 100%; max-height: 200px;"></p>
+<a href="/pizzas/" class="mx-2" >Retour à la liste des pizzas</a>
+{% endblock %}

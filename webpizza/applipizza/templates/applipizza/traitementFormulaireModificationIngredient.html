@@ -1,0 +1,11 @@
+{% extends 'applipizza/base.html' %}
+
+{% block title %}
+Modifications de l'ingrédient
+{% endblock %}
+
+{% block main %}
+<h2 class="text-center">Détails de l'ingrédient</h2>
+<p class ="mx-2">Nom de l'ingrédient : {{ingredient.nomIngredient}}</p>
+<a href="/ingredients/" class ="mx-2">Retour à la liste des ingrédients</a>
+{% endblock %}

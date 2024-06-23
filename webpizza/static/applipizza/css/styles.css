@@ -1,0 +1,19 @@
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  .Site-content {
+    flex: 1;
+  }
+
+  .bg-indigo-custom {
+    background-color: #f7d98580; /* Code couleur indigo */
+}
+
+.pizza-details {
+  border: 1px solid #4b0082; /* Bordure de couleur indigo */
+  padding: 10px; /* Espace intérieur autour du texte */
+  margin-top: 10px; /* Marge supérieure pour séparation */
+}
